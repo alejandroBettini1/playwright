@@ -1,0 +1,21 @@
+{
+  "name": "playwright-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "cucumber": "npx cucumber-js -r steps_definitions/**/*.ts --publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.36.2"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^9.3.0",
+    "chai": "^4.3.7",
+    "mysql2": "^3.6.0"
+  }
+}
