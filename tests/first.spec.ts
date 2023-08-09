@@ -11,7 +11,7 @@ test('google example', async function ({page}) {
     await google.open()
 })
 
-test.only('API', async ({page}) => {
+test('API', async ({page}) => {
     const req = await request.newContext();
     let url = 'https://criptoya.com/api/binancep2p/sell/usdt/ars/5';
     
